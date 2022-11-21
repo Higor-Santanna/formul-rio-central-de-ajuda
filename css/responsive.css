@@ -1,0 +1,95 @@
+@media(width: 2560px){
+    .father .first-child h1{
+        font-size: 60px;
+        padding-bottom: 21px;
+    }
+    
+    .father .first-child p{
+        font-size: 30px;
+    }
+
+    .second-child{
+        width: 640px;
+        height: 678px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .second-child .user-information{
+        margin-bottom: 22px;
+    }
+
+    .second-child .user-information .campo-de-digitacao{
+        width: 598px;
+        height: 55px;
+        padding: 9px;
+        font-size: 20px;
+    }
+
+    .second-child .message{
+        width: 598px;
+        height: 250px;
+        font-size: 20px;
+    }
+
+    .second-child .required-field{
+        font-size: 25px;
+        margin-bottom: 11px;
+    }
+
+    .second-child .button{
+        width: 598px;
+        height: 61px; 
+        font-size: 25px;
+    }
+
+    .second-child .user-information.error{
+        margin-bottom: 11.2px;
+    }
+
+    .user-information.error .message-error{
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 770px){
+    .father{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .father .first-child{
+        width: 440px;
+        padding-bottom: 20px;
+    }
+}
+
+@media(max-width: 420px){
+    body{
+        min-height: 100vh;
+    }
+
+    .father{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .father .first-child{
+        max-width: 400px;
+    } 
+}
+
+@media(max-width: 390px){
+
+    .second-child{
+        width: 320px;
+        height: 358px;
+        padding: 12px;
+    }
+}
