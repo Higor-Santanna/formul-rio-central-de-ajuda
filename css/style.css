@@ -40,34 +40,32 @@ body{
     padding: 0 20px;
 }
 
-.second-child .user-information{
+.campo{
+    width: 298px;
+    border: 1px solid var(--cor-borda-input);
+    border-radius: 5px;
+    padding: 9px;
     margin-bottom: 15px;
 }
 
-.second-child .user-information .campo-de-digitacao{
-    width: 298px;
+.second-child .campo-de-digitacao{
     height: 35px;
-    border: 1px solid var(--cor-borda-input);
-    border-radius: 5px;
-    padding: 9px;
-}
-
-.second-child .user-information .message-error{
-    display: none;
 }
 
 .second-child .message{
-    width: 298px;
-    height: 100px;
-    border: 1px solid var(--cor-borda-input);
-    border-radius: 5px;
-    padding: 9px;
+    display: none;
+    font-size: 8px;
+    font-weight: 400;
+}
+
+.second-child .message-text{
+    margin-bottom: 7px;
 }
 
 .second-child .required-field{
     font-weight: 400;
     font-size: 15px;
-    margin-bottom: 11px;
+    margin-bottom: 20px;
 }
 
 .second-child .button{
@@ -81,35 +79,25 @@ body{
     cursor: pointer;
 }
 
-.user-information .campo-de-digitacao:focus,
-.user-information .message:focus{
+.campo-de-digitacao:focus,
+.message-text:focus{
     outline: 0;
     border: 2px solid #f0618d;
 }
 
-.user-information.success .campo-de-digitacao{
+.campo.success{
     border: 1px solid var(--cor-borda-input-correto);
 }
 
-.user-information.success .message{
-    border: 1px solid var(--cor-borda-input-correto);
-}
-
-.second-child .user-information.error{
-    margin-bottom: 6.2px;
-}
-
-.user-information.error .campo-de-digitacao{
+.campo.error{
     border: 1px solid var(--cor-borda-input-errado);
+    margin-bottom: 0;
 }
 
-.user-information.error .message{
-    border: 1px solid var(--cor-borda-input-errado);
-}
-
-.user-information.error .message-error{
+.message.error{
     display: block;
     font-size: 8px;
     font-weight: 400;
     color: var(--cor-borda-input-errado);
+    margin-bottom: 7px;
 }

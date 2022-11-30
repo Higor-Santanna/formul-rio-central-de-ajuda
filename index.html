@@ -30,25 +30,17 @@
 
         <form class="second-child" id="formulario">
 
-            <div class="user-information">
-                <input type="text" name="text" placeholder="Nome completo *" id="full-name" class="campo-de-digitacao">
-                <span class="message-error">campo obrigatório</span>
-            </div>
+            <input type="text" name="text" placeholder="Nome completo *" id="full-name" class="campo-de-digitacao campo">
+            <span class="message">campo obrigatório</span>
 
-            <div class="user-information">
-                <input type="email" name="email" id="email" placeholder="Email *" class="campo-de-digitacao">
-                <span class="message-error">campo obrigatório</span>
-            </div>
-
-            <div class="user-information">
-                <input type="text" name="Cell" id="phone-number" placeholder="Telefone *" class="campo-de-digitacao">
-                <span class="message-error">campo obrigatório</span>
-            </div>
-
-            <div class="div-message user-information">
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="Mensagem *" class="message"></textarea>
-                <span class="message-error">campo obrigatório</span>
-            </div>
+            <input type="email" name="email" id="email" placeholder="Email *" class="campo-de-digitacao campo">
+            <span class="message">campo obrigatório</span>
+            
+            <input type="text" name="Cell" id="phone-number" placeholder="Telefone *" class="campo-de-digitacao campo">
+            <span class="message">campo obrigatório</span>
+            
+            <textarea name="message" id="message" cols="30" rows="5" placeholder="Mensagem *" class="message-text campo"></textarea>
+            <span class="message">campo obrigatório</span>
 
             <p class="required-field">*campos obrigatórios</p>
 
@@ -56,6 +48,7 @@
         </form>
     </div>
 
-    <script src="./js/formulario.js"></script>
+    <!-- <script src="./js/formulario.js"></script> -->
+    <script src="./js/index.js"></script>
 </body>
 </html>
